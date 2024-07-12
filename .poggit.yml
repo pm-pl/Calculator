@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/NhanAZ/Calculator
+# Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/NhanAZ/Calculator
 build-by-default: true
 branches:
 - arithmexp
@@ -6,8 +6,7 @@ projects:
   Calculator:
     path: ""
     libs:
-      - src: muqsit/arithmexp/arithmexp
-        version: 0.1.30
-      - src: NhanAZ/libBedrock/libBedrock
-        version: 1.0.0
-...
+    - src: muqsit/arithmexp/arithmexp
+      version: 1.0.0
+    - src: NhanAZ/libBedrock/libBedrock
+      version: 1.0.0
