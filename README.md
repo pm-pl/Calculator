@@ -9,14 +9,19 @@
 - Eg: `/calculator 1 + (2 - 3) * 4 / 5` > Result: `0.2`
 
 # Constants
-- List of supported constants: `pi`, `e`, `log2e`, `log10e`, `ln2`, `ln10`, `pi2`, `pi4`, `m_1pi`, `m_2pi`, `sqrtpi`, `m_2sqrtpi`, `sqrt2`, `sqrt3`, `sqrt12`, `lnpi`, `euler`, `nan`, `inf`.  
+- List of supported constants: `e`, `euler`, `false`, `inf`, `log2e`, `log10e`, `ln2`, `ln10`, `lnpi`, `pi`, `nan`, `pi2`, `pi4`, `m_1pi`, `m_2pi`, `m_2sqrtpi`, `sqrtpi`, `sqrt2`, `sqrt3`, `sqrt12`, `true`.  
 - Description of constants: https://github.com/Muqsit/arithmexp/wiki/Constant
 - Eg: `/calculator 3**2 * pi` > Result: `28.2`
 
 # Math functions
-- List of supported math functions: `abs`, `acos`, `acosh`, `asin`, `asinh`, `atan2`, `atan`, `atanh`, `ceil`, `cos`, `cosh`, `deg2rad`, `exp`, `expm1`, `fdiv`, `floor`, `fmod`, `getrandmax`, `hypot`, `intdiv`, `lcg_value`, `log10`, `log`, `max`, `min`, `mt_getrandmax`, `mt_rand`, `pi`, `pow`, `rad2deg`, `rand`, `round`, `sin`, `sinh`, `sqrt`, `srand`, `tan`, `tanh`.  
+- List of supported math functions: `abs()`,` acos()`,` acosh()`,` asin()`,` asinh()`,` atan2()`,` atan()`,` atanh()`,` boolval()`,` ceil()`,` cos()`,` cosh()`,` deg2rad()`,` exp()`,` expm1()`,` fdiv()`,` floatval()`,` floor()`,` fmod()`,` hypot()`,` intdiv()`,` intval()`,` is_bool()`,` is_float()`,` is_finite()`,` is_infinite()`,` is_nan()`,` lcg_value()`,` log10()`,` log1p()`,` log()`,` max()`,` min()`,` mt_getrandmax()`,` mt_rand()`,` pi()`,` pow()`,` rad2deg()`,` round()`,` sin()`,` sinh()`,` sqrt()`,` tan()`,` tanh()`.  
 - Description of math functions: https://github.com/Muqsit/arithmexp/wiki/Function
 - Eg: `/calculator sqrt(369)` > Result: `19.2`
+
+# Operator
+- List of supported operator: `+`,` /`,` ==`,` **`,` >`,` >=`,` ===`,` <`,` <=`,` &&`,` ||`,` and`,` or`,` xor`,` %`,` *`,` !=`,` !==`,` <=>`,` -`,` !`,` -`,` +`.  
+- Description of operator: https://github.com/Muqsit/arithmexp/wiki/Operator
+- Eg: `/calculator 1 + 2 == 3` > Result: `true`
 
 # Commands & Permissions
 ```yaml
@@ -61,4 +66,4 @@ configVersion: "0.0.15"
 
 # Contact
 [![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\
-**You can contact me directly via Discord `NhanAZ#9115`**
+**You can contact me directly via Discord `NhanAZ`**
