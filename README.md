@@ -14,12 +14,12 @@
 - Eg: `/calculator 3**2 * pi` > Result: `28.2`
 
 # Math functions
-- List of supported math functions: `abs()`,` acos()`,` acosh()`,` asin()`,` asinh()`,` atan2()`,` atan()`,` atanh()`,` boolval()`,` ceil()`,` cos()`,` cosh()`,` deg2rad()`,` exp()`,` expm1()`,` fdiv()`,` floatval()`,` floor()`,` fmod()`,` hypot()`,` intdiv()`,` intval()`,` is_bool()`,` is_float()`,` is_finite()`,` is_infinite()`,` is_nan()`,` lcg_value()`,` log10()`,` log1p()`,` log()`,` max()`,` min()`,` mt_getrandmax()`,` mt_rand()`,` pi()`,` pow()`,` rad2deg()`,` round()`,` sin()`,` sinh()`,` sqrt()`,` tan()`,` tanh()`.  
+- List of supported math functions: `abs()`, `acos()`, `acosh()`, `asin()`, `asinh()`, `atan2()`, `atan()`, `atanh()`, `boolval()`, `ceil()`, `cos()`, `cosh()`, `deg2rad()`, `exp()`, `expm1()`, `fdiv()`, `floatval()`, `floor()`, `fmod()`, `hypot()`, `intdiv()`, `intval()`, `is_bool()`, `is_float()`, `is_finite()`, `is_infinite()`, `is_nan()`, `lcg_value()`, `log10()`, `log1p()`, `log()`, `max()`, `min()`, `mt_getrandmax()`, `mt_rand()`, `pi()`, `pow()`, `rad2deg()`, `round()`, `sin()`, `sinh()`, `sqrt()`, `tan()`, `tanh()`.  
 - Description of math functions: https://github.com/Muqsit/arithmexp/wiki/Function
 - Eg: `/calculator sqrt(369)` > Result: `19.2`
 
 # Operator
-- List of supported operator: `+`,` /`,` ==`,` **`,` >`,` >=`,` ===`,` <`,` <=`,` &&`,` ||`,` and`,` or`,` xor`,` %`,` *`,` !=`,` !==`,` <=>`,` -`,` !`,` -`,` +`.  
+- List of supported operator: `+`, `/`, `==`, `**`, `>`, `>=`, `===`, `<`, `<=`, `&&`, `||`, `and`, `or`, `xor`, `%`, `*`, `!=`, `!==`, `<=>`, `-`, `!`, `-`, `+`.  
 - Description of operator: https://github.com/Muqsit/arithmexp/wiki/Operator
 - Eg: `/calculator 1 + 2 == 3` > Result: `true`
 
